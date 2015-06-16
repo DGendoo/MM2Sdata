@@ -1,13 +1,14 @@
 Package: MM2Sdata
 Type: Package
-Title: Gene Expression Datasets for the MM2S Package
-Version: 1.0.0
+Title: Gene Expression Datasets for the 'MM2S' Package
+Version: 1.0.1
 Date: 2015-05-14
-Author: Deena M.A. Gendoo  <deena.gendoo1984@gmail.com>, Benjamin Haibe-Kains <benjamin.haibe.kains@utoronto.ca>
-Maintainer: Deena M.A. Gendoo <deena.gendoo1984@gmail.com>
-Description: Gene Expression datasets for the MM2S package. Contains normalized expression data for Human Medulloblastoma (GSE37418) as well as Mouse Medulloblastoma models (GSE36594). 
+Author: Deena M.A. Gendoo  <deena.gendoo@utoronto.ca>, Benjamin Haibe-Kains <benjamin.haibe.kains@utoronto.ca>
+Maintainer: Deena M.A. Gendoo <deena.gendoo@utoronto.ca>
+Description: Gene Expression datasets for the 'MM2S' package. Contains normalized expression data for Human Medulloblastoma ('GSE37418') as well as Mouse Medulloblastoma models ('GSE36594'). 
 License: Artistic-2.0
 Depends: R (>= 2.10), Biobase
+Suggests: knitr
 biocViews: MM2S, ExperimentData,ExpressionData, MicroarrayData
 Packaged: 2015-05-14 15:45:59 UTC; biocbuild
 NeedsCompilation: no
